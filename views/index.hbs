@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<meta charset="utf-8">
+<link rel="stylesheet" type="text/css" href="stylesheets/style.less">
+<head>
+	<title></title>
+</head>
+<body>
+<div class="main-container">
+{{#each productos}}
+	 <img id="imagen" src="{{this.imagen}}"/>
+	 	 
+{{/each}}
+	</div>
+
+<a href="/list?page=1">1</a>
+<a href="/list?page=2">2</a>
+<a href="/list?page=3">3</a>
+<a href="/list?page=4">4</a>
+
+</div>
+
+
+<script
+ src="https://code.jquery.com/jquery-3.3.1.min.js"
+ crossorigin="anonymous"></script>
+
+</body>
+</html>
